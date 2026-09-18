@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAPS | Vacantes y proyectos</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg kaps-navbar sticky-top"><div class="container-fluid px-lg-5">
+<a class="navbar-brand kaps-logo" href="index.html"><span class="logo-mark"><i class="bi bi-intersect"></i></span>KAPS</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav mx-auto gap-lg-3"><li><a class="nav-link" href="index.html">Inicio</a></li><li><a class="nav-link active" href="vacantes.html">Vacantes</a></li><li><a class="nav-link" href="comunidad.html">Comunidad</a></li></ul><a href="index.html#registro" class="btn btn-kaps">Registrarse gratis</a></div>
+</div></nav>
+
+<header class="page-hero"><div class="container"><span class="eyebrow"><span class="dot"></span> Oportunidades verificadas</span><h1>Proyectos que<br><span>sí cuentan.</span></h1><p>Explora vacantes y proyectos para estudiantes y recién egresados. Conoce el área, duración y compensación antes de postularte.</p></div></header>
+
+<section class="light-section py-5"><div class="container py-4">
+<div class="row align-items-end g-3 mb-4"><div class="col-lg-7"><span class="section-label">VACANTES DISPONIBLES</span><h2 class="section-title mb-0">Encuentra tu oportunidad</h2></div><div class="col-lg-5"><div class="input-group"><span class="input-group-text"><i class="bi bi-search"></i></span><input id="searchVacantes" class="form-control" placeholder="Buscar por área o proyecto..."></div></div></div>
+
+<div class="row g-4" id="vacantesGrid">
+<div class="col-md-6 col-lg-4 vacancy" data-text="diseño identidad visual branding">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">DISEÑO</span><span class="badge-new">NUEVO</span></div><h3>Rediseño de identidad visual</h3><p>Crear una propuesta visual para una marca emergente.</p><div class="price">$3,500 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 2 semanas</span><span><i class="bi bi-laptop"></i> Remoto</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Rediseño de identidad visual" data-price="$3,500 MXN">Ver detalles</button></div>
+</div>
+<div class="col-md-6 col-lg-4 vacancy" data-text="marketing instagram contenido redes sociales">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">MARKETING</span><span class="badge-social">SERVICIO SOCIAL</span></div><h3>Estrategia de contenido Instagram</h3><p>Planear contenido y calendario para aumentar el alcance.</p><div class="price">$2,200 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 3 semanas</span><span><i class="bi bi-laptop"></i> Remoto</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Estrategia de contenido Instagram" data-price="$2,200 MXN">Ver detalles</button></div>
+</div>
+<div class="col-md-6 col-lg-4 vacancy" data-text="programacion react desarrollo dashboard ventas">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">DESARROLLO</span><span class="badge-urgent">URGENTE</span></div><h3>Dashboard de ventas en React</h3><p>Desarrollar una interfaz para visualizar indicadores.</p><div class="price">$6,800 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 4 semanas</span><span><i class="bi bi-laptop"></i> Remoto</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Dashboard de ventas en React" data-price="$6,800 MXN">Ver detalles</button></div>
+</div>
+<div class="col-md-6 col-lg-4 vacancy" data-text="comercio negocios investigación mercado">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">NEGOCIOS</span><span class="badge-new">NUEVO</span></div><h3>Investigación de mercado</h3><p>Analizar clientes potenciales y presentar hallazgos.</p><div class="price">$4,200 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 3 semanas</span><span><i class="bi bi-laptop"></i> Híbrido</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Investigación de mercado" data-price="$4,200 MXN">Ver detalles</button></div>
+</div>
+<div class="col-md-6 col-lg-4 vacancy" data-text="fotografia contenido audiovisual redes">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">CONTENIDO</span><span class="badge-social">PORTAFOLIO</span></div><h3>Contenido audiovisual para redes</h3><p>Crear piezas cortas para una campaña digital.</p><div class="price">$3,000 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 2 semanas</span><span><i class="bi bi-camera"></i> Híbrido</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Contenido audiovisual para redes" data-price="$3,000 MXN">Ver detalles</button></div>
+</div>
+<div class="col-md-6 col-lg-4 vacancy" data-text="finanzas excel datos analisis">
+<div class="vacancy-card"><div class="d-flex justify-content-between"><span class="tag">FINANZAS</span><span class="badge-urgent">PRÓXIMO</span></div><h3>Análisis de datos financieros</h3><p>Organizar información y generar reportes de apoyo.</p><div class="price">$5,000 <small>MXN</small></div><div class="meta"><span><i class="bi bi-clock"></i> 4 semanas</span><span><i class="bi bi-laptop"></i> Remoto</span></div><button class="btn btn-dark-kaps w-100 details-btn" data-title="Análisis de datos financieros" data-price="$5,000 MXN">Ver detalles</button></div>
+</div>
+</div>
+<div id="emptyVacantes" class="text-center py-5 d-none"><i class="bi bi-search display-5"></i><h4 class="mt-3">No encontramos esa vacante</h4></div>
+</div></section>
+
+<div class="modal fade" id="vacancyModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content modal-kaps"><div class="modal-header"><h5 class="modal-title" id="modalTitle"></h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Proyecto disponible para estudiantes y recién egresados.</p><div class="modal-price" id="modalPrice"></div><hr><p><i class="bi bi-check2-circle"></i> Proyecto con objetivos definidos<br><i class="bi bi-check2-circle"></i> Información de compensación<br><i class="bi bi-check2-circle"></i> Experiencia para tu portafolio</p></div><div class="modal-footer"><a href="index.html#registro" class="btn btn-kaps">Registrarme para postular</a></div></div></div></div>
+<footer class="footer"><div class="container d-flex justify-content-between flex-wrap gap-3"><span class="kaps-logo">KAPS</span><span>© 2026 KAPS</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="script.js"></script>
+</body></html>
